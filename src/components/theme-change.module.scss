@@ -1,0 +1,18 @@
+
+.theme-change {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  padding: 16px;
+  background-color: rgba(var(--background-rgb), .1);
+  backdrop-filter: blur(8px);
+  border-radius: 50%;
+  button {
+    color: rgb(var(--foreground-rgb));
+    background: none;
+    outline: none;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+  }
+}
